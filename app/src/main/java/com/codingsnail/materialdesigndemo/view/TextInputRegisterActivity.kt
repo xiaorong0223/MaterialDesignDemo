@@ -75,7 +75,7 @@ class TextInputRegisterActivity : AppCompatActivity() {
             }
         })
 
-        countDownTimer = CountDownTimerUtils(tv_get_code, 60000, 1000)
+        countDownTimer = CountDownTimerUtils(tv_get_code, this,60000, 1000)
 
         tv_get_code.onClick {
             clickGetCode()
