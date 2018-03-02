@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">MaterialDesignDemo</string>
+    <string name="title_activity_text_input_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_incorrect_code">This code is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_field_phone">This phone code is invalid</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="input_text_login">TextInputLayout Login</string>
+    <string name="input_text_register">TextInputLayout  Register</string>
+    <string name="pwd_hint">请输入密码</string>
+    <string name="phone_hint">请输入手机号码</string>
+    <string name="verify_code_hint">请输入验证码</string>
+
+</resources>

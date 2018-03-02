@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!-- 代表 hint 的颜色 -->
+        <item name="android:textColorHint">#ff6f7272</item>
+        <!-- 代表 下划线没有获取焦点的颜色 的颜色 -->
+        <item name="colorControlNormal">#ffd8d8d8</item>
+        <!-- 代表 代表了获取焦点或者点击的时候 下划线 的颜色 -->
+        <item name="colorControlActivated">#ff3586fe</item>
+        <item name="colorControlHighlight">#ff3586fe</item>
+    </style>
+
+    <style name="TextOverCount">
+        <item name="android:textColor">@android:color/holo_green_light</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="et_login_text" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorAccent">#ff3586fe</item>
+        <!-- 底部线 默认颜色 -->
+        <item name="colorControlNormal">#ffd8d8d8</item>
+        <!-- 底部线 EditText激活时颜色 -->
+        <item name="colorControlActivated">#ff3586fe</item>
+        <!-- 设置光标 -->
+        <item name="android:textCursorDrawable">@drawable/cursor_input_et</item>
+    </style>
+
+    <!-- 设置错误提示 text的Style -->
+    <style name="text_input_login_error_style">
+        <item name="android:textColor">#ff3586fe</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>
