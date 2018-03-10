@@ -17,17 +17,10 @@
     </style>
 
     <style name="TextOverCount">
-        <item name="android:textColor">@android:color/holo_green_light</item>
-        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
     </style>
 
     <style name="et_login_text" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="colorAccent">#ff3586fe</item>
-        <!-- 底部线 默认颜色 -->
-        <item name="colorControlNormal">#ffd8d8d8</item>
-        <!-- 底部线 EditText激活时颜色 -->
-        <item name="colorControlActivated">#ff3586fe</item>
-        <!-- 设置光标 -->
         <item name="android:textCursorDrawable">@drawable/cursor_input_et</item>
     </style>
 

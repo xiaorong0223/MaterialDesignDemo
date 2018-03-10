@@ -19,6 +19,8 @@
         android:layout_marginTop="20dp"
         android:paddingLeft="15dp"
         android:paddingRight="15dp"
+        app:counterMaxLength="11"
+        app:counterEnabled="true"
         android:scrollbarAlwaysDrawHorizontalTrack="true"
         android:textColorHint="@color/colorHint"
         app:counterOverflowTextAppearance="@style/TextOverCount"
@@ -32,7 +34,6 @@
             android:layout_centerVertical="true"
             android:hint="请输入手机号"
             android:inputType="number"
-            android:maxLength="11"
             android:textColor="@color/black"
             android:textColorHint="@color/font_dark_color"
             android:textSize="@dimen/font_middle_size" />

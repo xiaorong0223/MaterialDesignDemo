@@ -5,10 +5,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.support.v7.widget.Toolbar
 import android.text.Editable
 import android.text.TextWatcher
-import android.view.View
 import android.widget.Toast
 import com.codingsnail.materialdesigndemo.R
 import kotlinx.android.synthetic.main.activity_text_input_login.*
@@ -26,10 +24,8 @@ class TextInputLoginActivity : AppCompatActivity() {
         initView()
     }
 
-     fun initView() {
+    private fun initView() {
 
-         val toolbar = findViewById(R.id.toolbar) as Toolbar
-         toolbar.setNavigationOnClickListener { finish() }
          et_phone.addTextChangedListener(object : TextWatcher {
             override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {
             }

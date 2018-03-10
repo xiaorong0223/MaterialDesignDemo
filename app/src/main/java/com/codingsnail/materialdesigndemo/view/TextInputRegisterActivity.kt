@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity
 import android.text.Editable
 import android.text.TextUtils
 import android.text.TextWatcher
+import android.widget.Toast
 import com.codingsnail.materialdesigndemo.R
 import com.codingsnail.materialdesigndemo.utils.CountDownTimerUtils
 import kotlinx.android.synthetic.main.activity_text_input_register.*
@@ -109,6 +110,7 @@ class TextInputRegisterActivity : AppCompatActivity() {
             text_input_layout_pwd.error = getString(R.string.error_incorrect_password)
             return
         }
+        Toast.makeText(this, "注册成功", Toast.LENGTH_SHORT).show()
     }
 
     companion object {
